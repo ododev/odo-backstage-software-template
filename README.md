@@ -7,7 +7,8 @@ It does so by leveraging both the `DevfileSelectorExtension` Custom Field extens
 
 ## Demo
 
-[Screencast from 2023-10-13 13-59-23.webm](https://github.com/rm3l/odo-backstage-golden-path-template/assets/593208/56b22434-555c-4ede-8809-2777f98924e5)
+[Screencast from 2023-10-13 13-59-23.webm](https://github.com/rm3l/odo-backstage-golden-path-template/assets/593208/44a2552e-8e9b-484b-880d-7f61ec097f2c)
+
 
 ## Usage
 
