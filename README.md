@@ -3,7 +3,7 @@
 This is a Software Template for Backstage that allows users to pick a Devfile Stack from a configured Devfile Registry.
 It then generates and publishes a starter project to a GitHub repository, and finally registers the new entity into the Backstage catalog.
 
-It does so by leveraging both the `DevfileSelectorExtension` Custom Field extension and the `devfile:odo:*` Custom Actions available in https://github.com/rm3l/backstage-odo-devfile-plugin/tree/main
+It does so by leveraging both the `DevfileSelectorExtension` Custom Field extension and the `devfile:odo:*` Custom Actions available in https://github.com/rm3l/backstage-odo-devfile-plugin
 
 ## Demo
 
