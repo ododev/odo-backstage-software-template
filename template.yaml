@@ -97,8 +97,8 @@ spec:
         starter_project: ${{ parameters.devfile_data.starter_project }}
         telemetry: ${{ parameters.telemetry }}
 
-    - id: fetch-base
-      name: Fetch Base
+    - id: fetch
+      name: Template Skeleton
       action: fetch:template
       input:
         url: ./skeleton
@@ -106,6 +106,7 @@ spec:
           name: ${{ parameters.name }}
           description: ${{ parameters.description }}
           owner: ${{ parameters.owner }}
+          destination: ${{ parameters.repoUrl | parseRepoUrl }}
 
     - id: publish
       if: ${{ parameters.dryRun !== true }}
