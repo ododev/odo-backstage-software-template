@@ -28,4 +28,4 @@ catalog:
         - allow: [Template]
 ```
 
-4. Restart your Backstage instance, and you should see a new `Boostrap application with Devfile` Template available if you click on the `Create` button.
+4. Restart your Backstage instance, and you should see a new `Bootstrap application with Devfile` Template available if you click on the `Create` button.
