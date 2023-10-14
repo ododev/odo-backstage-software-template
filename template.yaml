@@ -2,8 +2,8 @@ apiVersion: scaffolder.backstage.io/v1beta3
 kind: Template
 metadata:
   name: devfile-starter
-  title: Boostrap application with Devfile
-  description: Boostrap application with Devfile
+  title: Bootstrap application with Devfile
+  description: Bootstrap application with Devfile
   tags:
   - devfile
 spec:
