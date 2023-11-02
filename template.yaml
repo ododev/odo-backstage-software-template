@@ -34,19 +34,6 @@ spec:
           ui:options:
             rows: 5
 
-    - title: Set Telemetry preference
-      required:
-        - telemetry
-      properties:
-        telemetry:
-          title: Enable Telemetry
-          type: boolean
-          default: false
-          description: Wthether to enable telemetry for the odo command
-          ui:autofocus: true
-          ui:options:
-            rows: 5
-
     - title: Enter component info
       required:
         - name
@@ -95,7 +82,6 @@ spec:
         devfile: ${{ parameters.devfile_data.devfile }}
         version: ${{ parameters.devfile_data.version }}
         starter_project: ${{ parameters.devfile_data.starter_project }}
-        telemetry: ${{ parameters.telemetry }}
 
     - id: fetch
       name: Template Skeleton
