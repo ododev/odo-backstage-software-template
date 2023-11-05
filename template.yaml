@@ -34,7 +34,7 @@ spec:
           ui:options:
             rows: 5
 
-    - title: Enter component info
+    - title: Enter application info
       required:
         - name
         - owner
@@ -42,7 +42,7 @@ spec:
         name:
           title: Name
           type: string
-          description: Unique name of the component
+          description: Unique name of the application, e.g. my-java-quarkus-app
           pattern: '^([a-zA-Z][a-zA-Z0-9]*)(-[a-zA-Z0-9]+)*$'
           ui:autofocus: true
           ui:options:
@@ -50,7 +50,7 @@ spec:
         owner:
           title: Owner
           type: string
-          description: Owner of the component
+          description: Owner of the application
           ui:field: OwnerPicker
           ui:options:
             allowedKinds:
