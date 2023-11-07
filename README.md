@@ -7,7 +7,7 @@ It does so by leveraging both the `DevfileSelectorExtension` Custom Field extens
 
 ## Demo
 
-[demo-odo-backstage-gpt.webm](https://github.com/rm3l/odo-backstage-golden-path-template/assets/593208/75d09a36-cba2-4fb0-80c3-cbd340e83ea2)
+[Demo: odo Backstage Golden Path Template](https://github.com/rm3l/odo-backstage-golden-path-template/assets/593208/0e081e36-591c-4861-adfc-b567647ac04f)
 
 ## Usage
 
