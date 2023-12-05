@@ -7,7 +7,7 @@ metadata:
   tags:
   - devfile
 spec:
-  owner: redhat-developer/odo
+  owner: Red Hat
   type: service
 
   parameters:
