@@ -22,7 +22,7 @@ catalog:
   locations:
     # [...]
     - type: url
-      target: https://github.com/ododev/odo-backstage-software-path-template/blob/main/template.yaml
+      target: https://github.com/ododev/odo-backstage-software-template/blob/main/template.yaml
       rules:
         - allow: [Template]
 
